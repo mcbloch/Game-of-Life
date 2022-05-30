@@ -1,7 +1,7 @@
 """
 Game Of Life
 
-Draws in the terminal. 
+Draws in the terminal.
 Uses a random seed to set some cells to alive.
 
 - Uses `plotile` to draw a grid with braille characters
@@ -9,10 +9,11 @@ Uses a random seed to set some cells to alive.
 """
 
 import os
-import time
 import random
-import plotille as plt
+import time
 from typing import List
+
+import plotille as plt
 
 __all__ = ["size", "pixel_data", "neighs_count", "process_data"]
 
